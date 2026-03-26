@@ -1,0 +1,16 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "Este repositório contém minhas resoluções para diversos desafios do [LeetCode](https://leetcode.com/), implementadas em **JavaScript**.",
+  "scripts": {
+    "dev": "tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}

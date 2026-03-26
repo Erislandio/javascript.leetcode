@@ -11,7 +11,7 @@
  * @return {ListNode}
  */
 var mergeTwoLists = function (list1, list2) {
-  let list = list1;
+  const list = list1 ?? [];
 
   for (let index = 0; index < list2.length; index++) {
     list[list1.length + index + 1] = list2[index];
@@ -19,5 +19,3 @@ var mergeTwoLists = function (list1, list2) {
 
   return list.sort().filter(Boolean);
 };
-
-console.log(mergeTwoLists([1, 2, 3], [1, 2, 3]));
